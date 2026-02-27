@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{B9FD283C-4597-B89A-5524-1E02DEEBEF54}|FileManager\\FileManager.csproj|solutionrelative:filemanager\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9FD283C-4597-B89A-5524-1E02DEEBEF54}|FileManager\\FileManager.csproj|c:\\users\\dzhir\\source\\repos\\miroroo\\programming\\filemanager\\filemanager\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B9FD283C-4597-B89A-5524-1E02DEEBEF54}|FileManager\\FileManager.csproj|C:\\Users\\dzhir\\source\\repos\\miroroo\\programming\\FileManager\\filemanager\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B9FD283C-4597-B89A-5524-1E02DEEBEF54}|FileManager\\FileManager.csproj|solutionrelative:filemanager\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -27,14 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\dzhir\\source\\repos\\miroroo\\programming\\FileManager\\FileManager\\Form1.cs",
               "RelativeDocumentMoniker": "FileManager\\Form1.cs",
-              "ToolTip": "C:\\Users\\dzhir\\source\\repos\\miroroo\\programming\\FileManager\\FileManager\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "FileManager\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "C:\\Users\\dzhir\\source\\repos\\miroroo\\programming\\FileManager\\FileManager\\Form1.cs [Design]",
+              "RelativeToolTip": "FileManager\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-27T18:27:27.997Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "FileManager\\Form1.cs",
               "ToolTip": "C:\\Users\\dzhir\\source\\repos\\miroroo\\programming\\FileManager\\FileManager\\Form1.cs",
               "RelativeToolTip": "FileManager\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-27T18:19:45.978Z",
               "EditorCaption": ""
