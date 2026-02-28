@@ -385,6 +385,7 @@ namespace files
                                 archive.CreateEntryFromFile(filePath, Path.GetFileName(filePath));
                             }
                         }
+                        LoadFilesSorted(currentDirectory);
                         MessageBox.Show("Архив успешно создан.", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     catch (Exception ex)
