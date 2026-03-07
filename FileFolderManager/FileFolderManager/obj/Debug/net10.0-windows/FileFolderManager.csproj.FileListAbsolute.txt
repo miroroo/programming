@@ -1,0 +1,16 @@
+C:\Users\dzhir\source\repos\FileFolderManager\FileFolderManager\bin\Debug\net10.0-windows\FileFolderManager.exe
+C:\Users\dzhir\source\repos\FileFolderManager\FileFolderManager\bin\Debug\net10.0-windows\FileFolderManager.deps.json
+C:\Users\dzhir\source\repos\FileFolderManager\FileFolderManager\bin\Debug\net10.0-windows\FileFolderManager.runtimeconfig.json
+C:\Users\dzhir\source\repos\FileFolderManager\FileFolderManager\bin\Debug\net10.0-windows\FileFolderManager.dll
+C:\Users\dzhir\source\repos\FileFolderManager\FileFolderManager\bin\Debug\net10.0-windows\FileFolderManager.pdb
+C:\Users\dzhir\source\repos\FileFolderManager\FileFolderManager\obj\Debug\net10.0-windows\FileFolderManager.Form1.resources
+C:\Users\dzhir\source\repos\FileFolderManager\FileFolderManager\obj\Debug\net10.0-windows\FileFolderManager.csproj.GenerateResource.cache
+C:\Users\dzhir\source\repos\FileFolderManager\FileFolderManager\obj\Debug\net10.0-windows\FileFolderManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dzhir\source\repos\FileFolderManager\FileFolderManager\obj\Debug\net10.0-windows\FileFolderManager.AssemblyInfoInputs.cache
+C:\Users\dzhir\source\repos\FileFolderManager\FileFolderManager\obj\Debug\net10.0-windows\FileFolderManager.AssemblyInfo.cs
+C:\Users\dzhir\source\repos\FileFolderManager\FileFolderManager\obj\Debug\net10.0-windows\FileFolderManager.csproj.CoreCompileInputs.cache
+C:\Users\dzhir\source\repos\FileFolderManager\FileFolderManager\obj\Debug\net10.0-windows\FileFolderManager.dll
+C:\Users\dzhir\source\repos\FileFolderManager\FileFolderManager\obj\Debug\net10.0-windows\refint\FileFolderManager.dll
+C:\Users\dzhir\source\repos\FileFolderManager\FileFolderManager\obj\Debug\net10.0-windows\FileFolderManager.pdb
+C:\Users\dzhir\source\repos\FileFolderManager\FileFolderManager\obj\Debug\net10.0-windows\FileFolderManager.genruntimeconfig.cache
+C:\Users\dzhir\source\repos\FileFolderManager\FileFolderManager\obj\Debug\net10.0-windows\ref\FileFolderManager.dll

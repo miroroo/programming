@@ -1,11 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.IO.Compression;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Security.AccessControl;
 using System.Security.Principal;
 using System.Windows.Forms;
-using System.IO.Compression;
 
 namespace files
 {
@@ -139,6 +140,20 @@ namespace files
             }
         }
 
+        // Вспомогательный метод для форматирования байтов
+        private string FormatBytes(ulong bytes)
+        {
+            string[] sizes = { "Б", "КБ", "МБ", "ГБ", "ТБ" };
+            double len = bytes;
+            int order = 0;
+            while (len >= 1024 && order < sizes.Length - 1)
+            {
+                order++;
+                len /= 1024;
+            }
+            return $"{len:0.##} {sizes[order]}";
+        }
+
         private string FormatFileSize(long bytes)
         {
             string[] sizes = { "Б", "КБ", "МБ", "ГБ" };
@@ -201,6 +216,7 @@ namespace files
                         return;
                     File.Delete(newPath);
                 }
+
                 File.Move(selectedFilePath, newPath);
                 MessageBox.Show("Файл успешно переименован.", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 LoadFilesSorted(currentDirectory);
@@ -286,7 +302,7 @@ namespace files
                     File.Delete(destPath);
                 }
 
-                // Копируем потоком, затем удаляем исходный
+                // Копируем потоком
                 CopyFileWithStream(sourcePath, destPath);
                 File.Delete(sourcePath);
                 MessageBox.Show("Файл перемещён.", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -396,4 +412,48 @@ namespace files
             }
         }
     }
-}
+
+    // --- WinAPI только для удаления файла ---
+    private static class NativeMethods
+    {
+        [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Auto)]
+        public struct SHFILEOPSTRUCT
+        {
+            public IntPtr hwnd;
+            public uint wFunc;
+            public string pFrom;
+            public string pTo;
+            public ushort fFlags;
+            public bool fAnyOperationsAborted;
+            public IntPtr hNameMappings;
+            public string lpszProgressTitle;
+        }
+
+        public const uint FO_DELETE = 0x0003;
+        public const ushort FOF_ALLOWUNDO = 0x0040;
+        public const ushort FOF_WANTNUKEWARNING = 0x4000;
+
+        [DllImport("shell32.dll", CharSet = CharSet.Auto)]
+        public static extern int SHFileOperation(ref SHFILEOPSTRUCT FileOp);
+    }
+
+        private bool DeleteFileWithWinApi(string filePath)
+        {
+            var fileOp = new NativeMethods.SHFILEOPSTRUCT
+            {
+                hwnd = this.Handle,
+                wFunc = NativeMethods.FO_DELETE,
+                pFrom = filePath + "\0\0",
+                fFlags = NativeMethods.FOF_ALLOWUNDO | NativeMethods.FOF_WANTNUKEWARNING
+            };
+
+            int result = NativeMethods.SHFileOperation(ref fileOp);
+            if (result != 0)
+            {
+                MessageBox.Show($"Ошибка при удалении файла. Код: {result}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+            return true;
+        }
+
+    }
