@@ -1,0 +1,40 @@
+C:\Users\darya\source\repos\MyLibrary1\dlllaba7\bin\Debug\dlllaba7.exe.config
+C:\Users\darya\source\repos\MyLibrary1\dlllaba7\bin\Debug\dlllaba7.exe
+C:\Users\darya\source\repos\MyLibrary1\dlllaba7\bin\Debug\dlllaba7.pdb
+C:\Users\darya\source\repos\MyLibrary1\dlllaba7\obj\Debug\dlllaba7.csproj.AssemblyReference.cache
+C:\Users\darya\source\repos\MyLibrary1\dlllaba7\obj\Debug\dlllaba7.Form1.resources
+C:\Users\darya\source\repos\MyLibrary1\dlllaba7\obj\Debug\dlllaba7.Properties.Resources.resources
+C:\Users\darya\source\repos\MyLibrary1\dlllaba7\obj\Debug\dlllaba7.csproj.GenerateResource.cache
+C:\Users\darya\source\repos\MyLibrary1\dlllaba7\obj\Debug\dlllaba7.csproj.CoreCompileInputs.cache
+C:\Users\darya\source\repos\MyLibrary1\dlllaba7\obj\Debug\dlllaba7.exe
+C:\Users\darya\source\repos\MyLibrary1\dlllaba7\obj\Debug\dlllaba7.pdb
+C:\Users\dzhir\source\repos\miroroo\programming\MyLibrary1 — копия\dlllaba7\bin\Debug\dlllaba7.exe.config
+C:\Users\dzhir\source\repos\miroroo\programming\MyLibrary1 — копия\dlllaba7\bin\Debug\dlllaba7.exe
+C:\Users\dzhir\source\repos\miroroo\programming\MyLibrary1 — копия\dlllaba7\bin\Debug\dlllaba7.pdb
+C:\Users\dzhir\source\repos\miroroo\programming\MyLibrary1 — копия\dlllaba7\obj\Debug\dlllaba7.csproj.AssemblyReference.cache
+C:\Users\dzhir\source\repos\miroroo\programming\MyLibrary1 — копия\dlllaba7\obj\Debug\dlllaba7.Form1.resources
+C:\Users\dzhir\source\repos\miroroo\programming\MyLibrary1 — копия\dlllaba7\obj\Debug\dlllaba7.Properties.Resources.resources
+C:\Users\dzhir\source\repos\miroroo\programming\MyLibrary1 — копия\dlllaba7\obj\Debug\dlllaba7.csproj.GenerateResource.cache
+C:\Users\dzhir\source\repos\miroroo\programming\MyLibrary1 — копия\dlllaba7\obj\Debug\dlllaba7.csproj.CoreCompileInputs.cache
+C:\Users\dzhir\source\repos\miroroo\programming\MyLibrary1 — копия\dlllaba7\obj\Debug\dlllaba7.exe
+C:\Users\dzhir\source\repos\miroroo\programming\MyLibrary1 — копия\dlllaba7\obj\Debug\dlllaba7.pdb
+C:\Users\dzhir\source\repos\miroroo\programming\MyLibrary1 — копия\dlllaba7\bin\Debug\interLibrary1.dll
+C:\Users\dzhir\source\repos\miroroo\programming\MyLibrary1 — копия\dlllaba7\bin\Debug\MyLibrary1.dll
+C:\Users\dzhir\source\repos\miroroo\programming\MyLibrary1 — копия\dlllaba7\bin\Debug\interLibrary1.pdb
+C:\Users\dzhir\source\repos\miroroo\programming\MyLibrary1 — копия\dlllaba7\bin\Debug\MyLibrary1.pdb
+C:\Users\dzhir\source\repos\miroroo\programming\MyLibrary1 — копия\dlllaba7\obj\Debug\dlllaba7.csproj.Up2Date
+C:\Users\dzhir\source\repos\miroroo\programming\dlllaba7\dlllaba7\bin\Debug\dlllaba7.exe.config
+C:\Users\dzhir\source\repos\miroroo\programming\dlllaba7\dlllaba7\bin\Debug\dlllaba7.exe
+C:\Users\dzhir\source\repos\miroroo\programming\dlllaba7\dlllaba7\bin\Debug\dlllaba7.pdb
+C:\Users\dzhir\source\repos\miroroo\programming\dlllaba7\dlllaba7\bin\Debug\interLibrary1.dll
+C:\Users\dzhir\source\repos\miroroo\programming\dlllaba7\dlllaba7\bin\Debug\MyLibrary1.dll
+C:\Users\dzhir\source\repos\miroroo\programming\dlllaba7\dlllaba7\bin\Debug\interLibrary1.pdb
+C:\Users\dzhir\source\repos\miroroo\programming\dlllaba7\dlllaba7\bin\Debug\MyLibrary1.pdb
+C:\Users\dzhir\source\repos\miroroo\programming\dlllaba7\dlllaba7\obj\Debug\dlllaba7.csproj.AssemblyReference.cache
+C:\Users\dzhir\source\repos\miroroo\programming\dlllaba7\dlllaba7\obj\Debug\dlllaba7.Form1.resources
+C:\Users\dzhir\source\repos\miroroo\programming\dlllaba7\dlllaba7\obj\Debug\dlllaba7.Properties.Resources.resources
+C:\Users\dzhir\source\repos\miroroo\programming\dlllaba7\dlllaba7\obj\Debug\dlllaba7.csproj.GenerateResource.cache
+C:\Users\dzhir\source\repos\miroroo\programming\dlllaba7\dlllaba7\obj\Debug\dlllaba7.csproj.CoreCompileInputs.cache
+C:\Users\dzhir\source\repos\miroroo\programming\dlllaba7\dlllaba7\obj\Debug\dlllaba7.csproj.Up2Date
+C:\Users\dzhir\source\repos\miroroo\programming\dlllaba7\dlllaba7\obj\Debug\dlllaba7.exe
+C:\Users\dzhir\source\repos\miroroo\programming\dlllaba7\dlllaba7\obj\Debug\dlllaba7.pdb

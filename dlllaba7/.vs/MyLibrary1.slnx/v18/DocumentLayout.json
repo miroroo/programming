@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dzhir\\source\\repos\\miroroo\\programming\\dlllaba7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F89D2E27-3C1D-4C92-A41D-F52E4A29AD2C}|dlllaba7\\dlllaba7.csproj|c:\\users\\dzhir\\source\\repos\\miroroo\\programming\\dlllaba7\\dlllaba7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89D2E27-3C1D-4C92-A41D-F52E4A29AD2C}|dlllaba7\\dlllaba7.csproj|solutionrelative:dlllaba7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89D2E27-3C1D-4C92-A41D-F52E4A29AD2C}|dlllaba7\\dlllaba7.csproj|C:\\Users\\dzhir\\source\\repos\\miroroo\\programming\\dlllaba7\\dlllaba7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F89D2E27-3C1D-4C92-A41D-F52E4A29AD2C}|dlllaba7\\dlllaba7.csproj|solutionrelative:dlllaba7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD721911-E2F9-491B-B242-C33FF8F451A2}|MyLibrary1\\MyLibrary1.csproj|C:\\Users\\dzhir\\source\\repos\\miroroo\\programming\\dlllaba7\\mylibrary1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD721911-E2F9-491B-B242-C33FF8F451A2}|MyLibrary1\\MyLibrary1.csproj|solutionrelative:mylibrary1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3AC7F15-DCEA-4571-825E-351EF2742A55}|interLibrary1\\interLibrary1.csproj|C:\\Users\\dzhir\\source\\repos\\miroroo\\programming\\dlllaba7\\interlibrary1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3AC7F15-DCEA-4571-825E-351EF2742A55}|interLibrary1\\interLibrary1.csproj|solutionrelative:interlibrary1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\dzhir\\source\\repos\\miroroo\\programming\\dlllaba7\\dlllaba7\\Form1.cs",
+              "RelativeDocumentMoniker": "dlllaba7\\Form1.cs",
+              "ToolTip": "C:\\Users\\dzhir\\source\\repos\\miroroo\\programming\\dlllaba7\\dlllaba7\\Form1.cs",
+              "RelativeToolTip": "dlllaba7\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T15:50:41.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\dzhir\\source\\repos\\miroroo\\programming\\dlllaba7\\dlllaba7\\Form1.cs",
+              "RelativeDocumentMoniker": "dlllaba7\\Form1.cs",
+              "ToolTip": "C:\\Users\\dzhir\\source\\repos\\miroroo\\programming\\MyLibrary1 \u2014 \u043A\u043E\u043F\u0438\u044F\\dlllaba7\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "..\\MyLibrary1 \u2014 \u043A\u043E\u043F\u0438\u044F\\dlllaba7\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T15:40:14.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\dzhir\\source\\repos\\miroroo\\programming\\dlllaba7\\MyLibrary1\\Class1.cs",
+              "RelativeDocumentMoniker": "MyLibrary1\\Class1.cs",
+              "ToolTip": "C:\\Users\\dzhir\\source\\repos\\miroroo\\programming\\dlllaba7\\MyLibrary1\\Class1.cs",
+              "RelativeToolTip": "MyLibrary1\\Class1.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwEMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T14:58:38.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\dzhir\\source\\repos\\miroroo\\programming\\dlllaba7\\interLibrary1\\Class1.cs",
+              "RelativeDocumentMoniker": "interLibrary1\\Class1.cs",
+              "ToolTip": "C:\\Users\\dzhir\\source\\repos\\miroroo\\programming\\dlllaba7\\interLibrary1\\Class1.cs",
+              "RelativeToolTip": "interLibrary1\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T15:35:44.495Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

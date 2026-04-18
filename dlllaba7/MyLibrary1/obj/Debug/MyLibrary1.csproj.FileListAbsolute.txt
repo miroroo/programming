@@ -1,0 +1,15 @@
+C:\Users\darya\source\repos\MyLibrary1\MyLibrary1\bin\Debug\MyLibrary1.dll
+C:\Users\darya\source\repos\MyLibrary1\MyLibrary1\bin\Debug\MyLibrary1.pdb
+C:\Users\darya\source\repos\MyLibrary1\MyLibrary1\obj\Debug\MyLibrary1.csproj.AssemblyReference.cache
+C:\Users\darya\source\repos\MyLibrary1\MyLibrary1\obj\Debug\MyLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\darya\source\repos\MyLibrary1\MyLibrary1\obj\Debug\MyLibrary1.dll
+C:\Users\darya\source\repos\MyLibrary1\MyLibrary1\obj\Debug\MyLibrary1.pdb
+C:\Users\dzhir\source\repos\miroroo\programming\MyLibrary1 — копия\MyLibrary1\bin\Debug\MyLibrary1.dll
+C:\Users\dzhir\source\repos\miroroo\programming\MyLibrary1 — копия\MyLibrary1\bin\Debug\MyLibrary1.pdb
+C:\Users\dzhir\source\repos\miroroo\programming\MyLibrary1 — копия\MyLibrary1\obj\Debug\MyLibrary1.csproj.AssemblyReference.cache
+C:\Users\dzhir\source\repos\miroroo\programming\MyLibrary1 — копия\MyLibrary1\obj\Debug\MyLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\dzhir\source\repos\miroroo\programming\MyLibrary1 — копия\MyLibrary1\obj\Debug\MyLibrary1.dll
+C:\Users\dzhir\source\repos\miroroo\programming\MyLibrary1 — копия\MyLibrary1\obj\Debug\MyLibrary1.pdb
+C:\Users\dzhir\source\repos\miroroo\programming\MyLibrary1 — копия\MyLibrary1\bin\Debug\interLibrary1.dll
+C:\Users\dzhir\source\repos\miroroo\programming\MyLibrary1 — копия\MyLibrary1\bin\Debug\interLibrary1.pdb
+C:\Users\dzhir\source\repos\miroroo\programming\MyLibrary1 — копия\MyLibrary1\obj\Debug\MyLibrary1.csproj.Up2Date

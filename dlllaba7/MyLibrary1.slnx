@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="dlllaba7/dlllaba7.csproj" Id="f89d2e27-3c1d-4c92-a41d-f52e4a29ad2c" />
+  <Project Path="interLibrary1/interLibrary1.csproj" Id="b3ac7f15-dcea-4571-825e-351ef2742a55" />
+  <Project Path="MyLibrary1/MyLibrary1.csproj" Id="cd721911-e2f9-491b-b242-c33ff8f451a2" />
+</Solution>

@@ -77,6 +77,23 @@ namespace FileFolderManager
             [DllImport("kernel32.dll", SetLastError = true)]
             public static extern uint GetLogicalDrives();
 
+            public struct MEMORYSTATUSEX
+            {
+                public uint dwLength;
+                public uint dwMemoryLoad;
+                public ulong ullTotalPhys;
+                public ulong ullAvailPhys;
+                public ulong ullTotalPageFile;
+                public ulong ullAvailPageFile;
+                public ulong ullTotalVirtual;
+                public ulong ullAvailVirtual;
+                public ulong ullAvailExtendedVirtual;
+            }
+
+            [DllImport("kernel32.dll", SetLastError = true)]
+            [return: MarshalAs(UnmanagedType.Bool)]
+            public static extern bool GlobalMemoryStatusEx(ref MEMORYSTATUSEX lpBuffer);
+
             [DllImport("kernel32.dll", CharSet = CharSet.Auto, SetLastError = true)]
             public static extern bool GetVolumeInformation(
                 string lpRootPathName,
@@ -112,6 +129,7 @@ namespace FileFolderManager
         private void TimerDriveInfo_Tick(object sender, EventArgs e)
         {
             UpdateDriveInfo();
+            UpdateRamInfo();
         }
 
         private void RefreshDriveList()
@@ -128,6 +146,23 @@ namespace FileFolderManager
             }
             if (comboBoxDisks.Items.Count > 0)
                 comboBoxDisks.SelectedIndex = 0;
+        }
+
+        private void UpdateRamInfo()
+        {
+            var memStatus = new NativeMethods.MEMORYSTATUSEX();
+            memStatus.dwLength = (uint)Marshal.SizeOf(typeof(NativeMethods.MEMORYSTATUSEX));
+            if (NativeMethods.GlobalMemoryStatusEx(ref memStatus))
+            {
+                ulong totalRAM = memStatus.ullTotalPhys;
+                ulong availRAM = memStatus.ullAvailPhys;
+                ulong usedRAM = totalRAM - availRAM;
+                label2.Text = $"ОЗУ: всего {FormatBytes(totalRAM)}, свободно {FormatBytes(availRAM)} (используется {FormatBytes(usedRAM)})";
+            }
+            else
+            {
+                label2.Text = "Не удалось получить информацию о памяти";
+            }
         }
 
         private void ComboBoxDisks_SelectedIndexChanged(object sender, EventArgs e)
@@ -168,7 +203,6 @@ namespace FileFolderManager
             }
             return $"{len:0.##} {sizes[order]}";
         }
-
 
         private void buttonBrowse_Click(object sender, EventArgs e)
         {
@@ -252,7 +286,11 @@ namespace FileFolderManager
         {
             int selectedIndex = listBoxFiles.SelectedIndex;
             labelName.Text = labelSize.Text = labelPath.Text = "";
-            if (selectedIndex < 0) return;
+            if (selectedIndex < 0)
+            {
+                MessageBox.Show("Выберите элемент.", "Предупреждение", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
 
             if (selectedIndex < folderPaths.Count)
             {
@@ -292,8 +330,7 @@ namespace FileFolderManager
             }
 
             string sourcePath = selectedIndex < folderPaths.Count ? folderPaths[selectedIndex] : filePaths[selectedIndex - folderPaths.Count];
-            string directory = Path.GetDirectoryName(sourcePath);
-            string destPath = Path.Combine(directory, newName);
+            string destPath = Path.Combine(Path.GetDirectoryName(sourcePath), newName);
 
             // Для файла добавляем расширение, если нужно
             if (selectedIndex >= folderPaths.Count && !string.IsNullOrEmpty(Path.GetExtension(sourcePath)) && !newName.Contains("."))

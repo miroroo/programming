@@ -48,6 +48,7 @@
             listBoxFiles = new ListBox();
             comboBoxDisks = new ComboBox();
             labelDriveInfo = new Label();
+            label2 = new Label();
             groupBoxProperties.SuspendLayout();
             groupBox1.SuspendLayout();
             SuspendLayout();
@@ -247,11 +248,21 @@
             labelDriveInfo.TabIndex = 24;
             labelDriveInfo.Text = "label1";
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(540, 233);
+            label2.Name = "label2";
+            label2.Size = new Size(59, 25);
+            label2.TabIndex = 25;
+            label2.Text = "label2";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1072, 682);
+            Controls.Add(label2);
             Controls.Add(labelDriveInfo);
             Controls.Add(comboBoxDisks);
             Controls.Add(comboBoxSortBy);
@@ -292,5 +303,6 @@
         private ComboBox comboBoxDrives;
         private ComboBox comboBoxDisks;
         private Label labelDriveInfo;
+        private Label label2;
     }
 }
